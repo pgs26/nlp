@@ -5,3 +5,15 @@ pcyk.py
 sa.py
 seq2seq.py
 textsum.py
+
+
+import pandas as pd
+
+# Example: reading a file separated by a specific character, e.g., '|'
+file_path = 'your_file.txt'
+separator = '|'  # Change this to your specific separator
+
+df = pd.read_csv(file_path, sep=separator)
+
+# Display the DataFrame
+print(df)
