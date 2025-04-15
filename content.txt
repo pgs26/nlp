@@ -5,6 +5,7 @@ pcyk.py
 sa.py
 seq2seq.py
 textsum.py
+all.py
 
 
 import pandas as pd
